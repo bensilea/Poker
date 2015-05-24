@@ -24,8 +24,21 @@ public class Card{
 		CardInfo mCard=new CardInfo();
 	}
 }
-
 class CardInfo{
 	public int point;
-	public String color;
+	public int color;
+	public int flag;
+	
+	CardInfo(){
+		this.point=-1;
+		this.color=-1;
+		this.flag=-1;
+	}
+
+	CardInfo(int p,int c,int f)
+	{
+		point=p;
+		color=c;
+		flag=f;
+	}
 }
