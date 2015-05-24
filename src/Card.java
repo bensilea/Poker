@@ -27,5 +27,20 @@ public class Card{
 
 class CardInfo{
 	public int point;
-	public String color;
-}
+	public int color;
+	public int flag;
+	
+	CardInfo()
+	{
+		point=-1;
+		color=-1;
+		flag=-1;
+	}
+
+	CardInfo(int c,int p,int f)
+	{
+		point=p;
+		color=c;
+		flag=f;
+	}
+}	
